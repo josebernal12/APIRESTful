@@ -6,7 +6,10 @@ const Productos = []
 
 
 //RUTAS
+router.get('/', (req, res) => {
+   res.send('Consigna')
 
+})
 router.get('/api/Productos', (req, res) => {
    res.json(Productos)
 
